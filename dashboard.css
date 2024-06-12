@@ -1,0 +1,80 @@
+/* Estilo para el título de la sección */
+h3 {
+    color: green; /* Color del texto */
+    font-size: 1.5rem; /* Tamaño del texto */
+    margin-top: 0; /* Elimina el margen superior */
+}
+
+/* Estilo para los párrafos de la sección */
+p {
+    color: black; /* Color del texto */
+    font-size: 1rem; /* Tamaño del texto */
+}
+
+/* Estilo para las líneas horizontales */
+hr {
+    border: 1px solid green; /* Grosor y color de la línea */
+    margin: 1rem 0; /* Margen superior e inferior */
+}
+
+/* Estilo para el contenedor principal */
+.container {
+    padding: 20px; /* Espacio alrededor del contenido */
+}
+
+/* Estilo para las columnas */
+.col-12 {
+    flex: 0 0 100%; /* Ancho del 100% en dispositivos pequeños */
+    max-width: 100%; /* Ancho máximo del 100% */
+}
+
+.col-md-4 {
+    flex: 0 0 33.333%; /* Ancho del 33.333% en dispositivos medianos */
+    max-width: 33.333%;
+}
+
+.col-md-8 {
+    flex: 0 0 66.666%; /* Ancho del 66.666% en dispositivos medianos */
+    max-width: 66.666%;
+}
+
+/* Estilo para los márgenes entre las columnas */
+.my-5 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+/* Estilo para los iframes */
+iframe {
+    border: none; /* Elimina el borde del iframe */
+    width: 100%; /* Ancho del 100% */
+    height: 400px; /* Altura fija */
+}
+
+footer {
+    background-color: #012f0f;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.contact h3{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-weight: bold; 
+    font-size: 12px;
+}
+
+.contact p{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+}
+
+.rights{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+}

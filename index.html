@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="natur.css">
+    <link rel="stylesheet" href="fontello.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>NaturAPP</title>
+    
+</head>
+<body>
+ 
+    <nav>
+        <ul>
+            <div class="logo">
+                <img src="./imagenes/Logo_5 Ok.png" alt="Logo">
+            </div>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="about.html">Acerca de</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./imagenes/carrusel3.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./imagenes/carrusel1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./imagenes/carrusel2.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
+    <!-- Sección de Servicios -->
+    <section class="container my-5">
+        <h1 class="titulo-con-linea">Nuestros Servicios</h1><br>
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6">
+                <p>
+                    En  <span class="text-primary fw-bold">NaturAPP</span>, En NaturAPP, nos enorgullece ser una empresa comprometida con la causa ambiental, ofreciendo soluciones innovadoras y educativas para fomentar un mundo más verde y saludable; creemos en la poderosa combinación de la tecnología y la naturaleza para impulsar un cambio positivo.
+                </p>
+                <p>
+                    Nuestros servicios te brindan una visión del futuro, permitiéndote anticipar y prepararte de manera efectiva para las condiciones venideras. Desde mapas de riesgo climático hasta escenarios de cambio ambiental, te proporcionamos insights fundamentales para una planificación estratégica y decisiones informadas
+                </p>
+                <ul class="nav nav-pills mx-auto justify-content-center text-center" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active btn-success" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home">
+                            <i class="bi bi-thermometer-half"></i></i> <br>Niveles de contaminación
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link btn-primary" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile">
+                            <i class="bi bi-water"></i> <br>Tendencias ambientales
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link btn-primary" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact">
+                            <i class="bi bi-tree"></i> <br>Biodiversidad
+                        </button>
+                    </li>
+                </ul>
+                
+            </div>
+            <div class="col-12 col-md-4 text-end border-start">
+
+               
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                        <h2>Medición de contaminación</h2>
+                        <p>
+                            En NaturAPP, entendemos la importancia crítica de monitorear y comprender los niveles de contaminación en nuestro entorno. Nuestro servicio ofrece una visión clara y detallada de la calidad del aire y del agua en tu área local y más allá.
+                            Utilizando datos en tiempo real de estaciones de monitoreo ambiental y fuentes gubernamentales confiables, proporcionamos actualizaciones continuas sobre los niveles de contaminantes atmosféricos y hídricos en tu ubicación.
+                        </p>
+                    </div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                        <h2>Análisis de Tendencias Ambientales</h2>
+                        <p>
+                            Utilizando una amplia gama de datos ambientales recopilados a lo largo de los años, realizamos un análisis exhaustivo de las tendencias en áreas clave como el clima, la biodiversidad, la calidad del agua y del aire, entre otros. proporcionando datos valiosos sobre cómo está evolucionando nuestro entorno y qué impacto podría tener en el futuro.
+                        </p>
+                    </div>
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+                        <h2>Monitorización de la Biodiversidad</h2>
+                        <p>
+                            Utilizando datos de observaciones de la comunidad científica y ciudadana, así como información de bases de datos de biodiversidad, creamos mapas interactivos que muestran la distribución geográfica de especies vegetales y animales que permitan a los usuarios explorar y comprender la distribución y el estado de las especies en diferentes regiones.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Datos -->
+    <section id="data">
+        <h2 class="titulo-con-linea">Datos Ambientales</h2><br>
+        <div class="container text-center">
+            <div class="row align-items-start">
+                <div class="col-md-4">
+                    <h3>Origen de los Datos</h3>
+                    <p>En NaturAPP, nos esforzamos por ofrecer información ambiental precisa y confiable, obtenida de diversas fuentes verificadas en todo el mundo. Recolectamos datos de una variedad de fuentes, incluyendo estaciones meteorológicas gubernamentales, redes de monitoreo de calidad del aire, bases de datos científicas de biodiversidad y observaciones ciudadanas. Además, colaboramos con organizaciones ambientales y académicas para acceder a datos de investigación y análisis de vanguardia. Todos estos datos son procesados y analizados cuidadosamente por nuestro equipo de expertos en ciencia ambiental y tecnología para garantizar su calidad y relevancia. De esta manera, podemos proporcionar a nuestros usuarios información actualizada y detallada sobre el estado del medio ambiente en sus áreas locales y más allá, empoderándolos para tomar decisiones informadas y actuar en pro de la sostenibilidad.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Importancia de los Datos</h3>
+                    <p>Los datos recolectados son fundamentales porque nos proporcionan una ventana clara y objetiva hacia el estado actual del medio ambiente. Estos datos son como las piezas de un rompecabezas que nos permiten entender la complejidad de los ecosistemas y los impactos de las actividades humanas en ellos. Son la base sobre la cual se construyen políticas de conservación, estrategias de gestión de recursos naturales y decisiones individuales sobre el uso responsable de nuestros recursos. Además, los datos ambientales son una herramienta poderosa para crear conciencia pública sobre los desafíos ambientales que enfrentamos y promover acciones colectivas para abordarlos. Nos ayudan a monitorear el progreso hacia objetivos ambientales, identificar áreas de preocupación y evaluar el éxito de nuestras intervenciones. En resumen, los datos ambientales son esenciales para informar y guiar nuestras acciones hacia un futuro más sostenible y resiliente para todos.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Actualizaciones de Datos</h3>
+                    <p>En NaturAPP, nos comprometemos a mantener nuestros datos ambientales actualizados con la mayor frecuencia posible. Nuestra plataforma se actualiza regularmente, a menudo en intervalos de tiempo cortos, para garantizar que nuestros usuarios tengan acceso a información precisa y oportuna. Esta frecuencia de actualización constante permite un análisis más preciso y actualizado del estado del medio ambiente, lo que brinda a los usuarios la confianza de tomar decisiones informadas en tiempo real. Con datos frescos y en constante evolución, nuestros usuarios pueden estar seguros de que están utilizando la información más relevante y exacta para sus necesidades de análisis y toma de decisiones ambientales.</p>
+                </div>
+            </div>
+          </div>
+    </section>
+
+  <section>
+    <div class="container">
+        <h1>Blog de Noticias</h1>
+        <div class="article">
+            <h3>Avances en el Análisis de Datos Ambientales</h3>
+            <p>Los científicos han desarrollado nuevas técnicas para analizar datos ambientales...</p>
+            <a href="https://medioambiente.uexternado.edu.co/big-data-y-medio-ambiente-una-mirada-al-green-data/" target="_blank">
+                <img src="./imagenes/tecnicas_analizar.jpg" alt="" > 
+            </a>
+            <p>Publicado por: Juan Pérez | Fecha: 1 de mayo de 2024</p>
+        </div>
+
+        <div class="article">
+            <h3>El Impacto del Cambio Climático en la Fauna Local</h3>
+            <p>Un estudio reciente revela cómo el cambio climático está afectando a las especies...</p>
+            <a href="https://blogs.iadb.org/sostenibilidad/es/el-efecto-del-cambio-climatico-en-la-fauna-silvestre/" target="_blank">
+                <img src="./imagenes/cambioclimatico.jpg" alt="" > 
+            </a>
+            <p>Publicado por: María Gómez | Fecha: 28 de abril de 2024</p>
+        </div>
+
+        <div class="article">
+            <h3>Nuevos Métodos de Recolección de Datos en Proyectos de Conservación</h3>
+            <p>El uso de drones ha revolucionado muchos sectores, y uno de los campos en los que están teniendo un impacto significativo es en desarrollo...</p>
+            <a href="https://letsmovetheworld.com/blog/alas-verdes--la-tecnolog-a-de-drones-en-la-vanguardia-de-la-sostenibilidad" target="_blank">
+                <img src="./imagenes/drones.jpeg" alt="" > 
+            </a>
+            <p>Publicado por: Carlos Ruiz | Fecha: 25 de abril de 2024</p>
+        </div>
+    </div><br><br>
+  </section> 
+
+  <section>  
+    <h2 class="titulo-con-linea">Preguntas frecuentes</h2><br>
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <strong>¿Qué es el análisis de datos ambientales?
+              </button></strong>
+
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+              El análisis de datos ambientales es el proceso de recopilar, procesar y analizar datos relacionados con el medio ambiente para comprender mejor los problemas ambientales y tomar decisiones informadas
+              para su conservación y gestión sostenible.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <strong>¿Por qué es importante el análisis de datos para el medio ambiente?</strong>
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+              El análisis de datos ambientales es crucial para identificar patrones, tendencias y problemas emergentes en el medio ambiente, lo que permite a las organizaciones y a la
+              sociedad en general tomar medidas proactivas para abordarlos y proteger nuestro entorno natural.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <strong>¿Qué tipo de datos se pueden analizar para ayudar al medio ambiente?</strong>
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+              Se pueden analizar una amplia gama de datos ambientales, como datos de calidad del aire, calidad del agua, biodiversidad, uso del suelo, cambio climático, contaminación,
+              entre otros, para obtener una comprensión holística de los desafíos ambientales y encontrar soluciones efectivas.
+          </div>
+        </div>
+      </div>
+      
+      <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              <strong>¿Cómo se recopilan los datos ambientales?</strong>
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Los datos ambientales se recopilan a través de diversas fuentes, como estaciones de monitoreo ambiental, sensores remotos, mediciones en el campo, registros gubernamentales, estudios científicos
+              y contribuciones ciudadanas a través de aplicaciones y plataformas en línea.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              <strong>¿Qué herramientas y técnicas se utilizan en el análisis de datos ambientales?</strong>
+            </button>
+          </h2>
+          <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              En el análisis de datos ambientales se utilizan herramientas y técnicas como estadística descriptiva, modelado espacial, análisis de series temporales, aprendizaje
+              automático, sistemas de información geográfica (SIG) y visualización de datos para extraer información significativa y tomar decisiones informadas.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingSix">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+              <strong>¿Cómo puedo contribuir al análisis de datos ambientales?</strong>
+            </button>
+          </h2>
+          <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Puedes contribuir al análisis de datos ambientales participando en programas de monitoreo ciudadano, compartiendo datos relevantes, informando observaciones sobre el medio ambiente
+              en tu área local y apoyando iniciativas que promuevan la recopilación y el análisis de datos ambientales.
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+
+
+<section id="recursos">
+    <h2 class="titulo-con-linea">Recursos Adicionales</h2>
+    <p>Aquí encontrarás una lista de enlaces a guías, tutoriales y otros recursos para profundizar en el análisis de datos y la sostenibilidad ambiental:</p>
+    <ul>
+        <li><a href="https://blog.hubspot.es/marketing/analisis-de-datos" target="_blank">Guía completa de análisis de datos</a></li>
+        <li><a href="https://www.youtube.com/watch?v=ovTDPtMpWTY&ab_channel=ENVIASEOESP" target="_blank">Tutorial sobre sostenibilidad ambiental</a></li>
+        <li><a href="https://digitk.areandina.edu.co/handle/areandina/1177" target="_blank">Recursos adicionales de análisis de datos</a></li>
+        <li><a href="https://bibliovirtual.minambiente.gov.co/?AspxAutoDetectCookieSupport=1" target="_blank">Biblioteca virtual de sostenibilidad ambiental</a></li>
+    </ul>
+</section>
+
+
+
+<!-- Comentarios-->
+<section>
+  <h2 class="titulo-con-linea">Comentarios de otros usuarios</h2>
+  <div class="comentario">
+    <span class="nombre">Jennifer Zapata</span>
+    <span class="fecha">Fecha: 01 de mayo de 2024</span>
+    <div class="puntuacion">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+    <div class="mensaje">
+        <p>Increíble recurso para entender y analizar datos ambientales. La página ofrece una amplia gama de herramientas y análisis que son vitales para comprender mejor nuestro entorno y tomar decisiones informadas para un futuro más sostenible. ¡Gracias por brindar esta invaluable plataforma!</p>
+    </div>
+  </div>
+  <div class="comentario">
+    <span class="nombre">Keven Salazar</span>
+    <span class="fecha">Fecha: 02 de mayo de 2024</span>
+    <div class="puntuacion">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+    <div class="mensaje">
+        <p>Una excelente fuente de información y análisis sobre datos ambientales. La página web proporciona visualizaciones claras y detalladas que facilitan la interpretación de datos complejos relacionados con el medio ambiente. Es un recurso imprescindible para profesionales, académicos y cualquier persona interesada en conocer más sobre el estado del planeta y cómo podemos contribuir a su preservación.</p>
+    </div>
+  </div>
+</section>
+
+
+
+    <footer>
+        <div class="contact">
+            <h3>Contacto</h3>
+            <p>Teléfono: +57 3105392466 - +57 3028434078</p>
+            <p>Email: info@naturapp.com</p>
+        </div>
+        <div class="contact">
+            <h3>Redes Sociales</h3>
+            <i class="bi bi-facebook">Facebook</i><br>
+            <i class="bi bi-instagram">Instagram</i><br>
+            <i class="bi bi-twitter-x">Twitter - X</i><br>
+        </div>
+        <p class="rights">© 2024 Derechos Reservados - Taller de Análisis de Datos Ambientales</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
